@@ -1,0 +1,21 @@
+body {
+    background-color: #EDF2F4;
+}
+nav {
+    background-color: aqua;
+}
+
+
+h1 {
+    color: rgb(226, 43, 43);
+    text-align: center;
+    font-size: 3rem
+}
+
+h2 {
+    color: #2B2D42;
+}
+
+p {
+    color: #2B2D42;
+}
