@@ -1,0 +1,64 @@
+position: fixed
+position: absolute
+
+z-index: -10000;
+se utiliza para el fondo, no usar valor 0
+
+
+para transformar
+
+
+
+:root{
+    --main-color: red
+    **para llamar variable
+}
+
+
+*seudoclases
+.box2:hover: {                      para ocultar cosas al pasar el mouse
+    visibility: hidden; error
+    opacity: 0;
+    transform: scale (5s);
+} 
+
+.box2 {
+    transition: opacity.6s ease-out;
+    transition: all.6s ease-out;
+
+}
+
+.box2:focus:
+
+.box2:first-child:
+
+.box2:nth-child:
+
+
+propiedades complejas de css mas complejas
+
+*display flex siempre se aplica a los contenedore
+todos los elementos se pone uno al lado del otro
+
+flex-wrap: warp; los pones arriba del otro
+
+justify-content: start;
+justify-content: end;
+justify-content: center;
+
+justify-content: space-between;
+justify-content: space-arround;
+justify-content: space-evenly;
+
+
+aling-items: flex-end
+aling-items: flex-center
+
+
+gap: 20px espaciado entre los elementos
+
+display:  grid;
+grid-template-columns; repeat(4, 1fr)
+aling-content: center    para los grids
+
+ver columnas responsivas

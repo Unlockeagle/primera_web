@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    font-size: 0.5em;
+
+}
+
+.header__nav__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+
+}
+
+.header__nav__list li {
+    font-size: 1em;
+}
+
+.head__nav__Button {
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: .3em;
+    border-radius: 10px;
+    border: solid 1px #f2f2f2;
+    color: #f2f2f2;
+}
+
