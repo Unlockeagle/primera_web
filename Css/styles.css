@@ -1,59 +1,227 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: inherit, sans-serif;
     box-sizing: border-box;
 
 }
-
-body {
+NAV {
     background-color: #EDF2F4;
-}
-nav {
-    position: relative;
-    /* position: fixed; */
-    /* width: 400px; */
-    /* background-color: aqua; */
-    /* padding: 5px; */
-    /* padding-top: 20px; */
-    /* margin: 20px; */
-    /* border: solid 1em rgb(226, 43, 43) */
-    /* 
-    para sombras
-    box-shadow: 10px 10px 10px 10px #000 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    height: 10%;
+    padding: 10px 60px;
+    font-size: 1em;
+    position: fixed;
     
     
 }
 
+
+
+.logo1 {
+    width: 200px;
+    height: 150px;
+    
+   
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: flex-end;
+    font-size: 1.3em;
+
+
+}
+
+.button_contacto {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 16px 55px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: solid 1px #000000;
+
+}
+
+.jumbotron {
+
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}  
+.subtitulo {
+    text-align: center;
+}
 
 h1 {
-    /* display: block; */
-    color: rgb(226, 43, 43);
     text-align: center;
-    font-size: 3rem
+    font-size: 10vw;
+    color: red;
+    
 }
 
 h2 {
-    /* desaparece objetos 
-    display: none; 
-    visibility: hidden 
-    */
-    color: #2B2D42;
+    text-align: start;
+    font-size: 2vw;
+
+}
+
+.jumbotron_button {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+
+.button_unete {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 16px 36px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: solid 1px #000000;
+    
+        
+}
+
+.Box1 {
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Box1_texto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 0px 0px;
+    gap: 20px;
+   
+    
+   
 }
 
 p {
-    color: #2B2D42;
+    width: 400px;    
 }
 
-input {
-    outline: none;
+.auto_rojo {
+    width: auto;
+
+
 }
 
-.logo {
-    /* width: 50px;
-    height: 50px; 
+.Box2{
+    margin: 60px;
+    height: 21vh;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+
+    
+}
+
+.Box3 {
+   
+    margin: 60px;
+    display: flex;
+    
+
+}
+.auto_negro {
+    width: 60vh;
+}
+
+.Box3_texto {
+    margin: 0px 0px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+
+.Box4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 60px 0px 0px 0px;
+    
+}
+
+.input {
+   position: relative;
+    margin: 6%;
+    
+}
+
+.input_text {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.etiqueta {
     position: absolute;
-    top: 0;
-    left: auto; */
+    left: 0;
+
+
+}
+/* 
+como quitar el texto al pasar el mouse por la etiqueta? */
+
+footer {
+    
+    background-color: #8D99AE;
+    width: 100%;
+    height: 303px
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    
 }
 
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer_logo2 {
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 40px 0px 0px 60px;
+}
+
+.logo2 {
+    width: 200px;
+    height: 150px;
+
+}
+
+.footer_texto{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_redes {
+    margin: 60px 60px 60px 60px;
+}

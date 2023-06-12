@@ -17,18 +17,24 @@
 <body>
     <header>
         <nav>
+            
+            
             <div class="logo">
-                <img src="/Assets/carzonelogofull-removebg-preview.png" alt="representacion de la marca">
+                 <img src="/Assets/carzonelogofull-removebg-preview.png" class="logo1" alt="representacion de la marca">
             </div>
             
             <ul>
-                <li><a href="/html/inicio.html">Inicio</a></li>
+                <li><a href="/inicio.html">Inicio</a></li>
                 <li>Sobre Nosotros</li>
                 <li>Servicio</li>
             </ul>
 
-            <button>Contactános</button>
+            <div class="button_nav">
 
+                <button class="button_contacto">Contactános</button>
+
+            </div>
+            
 
         </nav>
     </header>
@@ -38,35 +44,67 @@
         <aside>Publicidad</aside>
         -->
 
-        <section>
+        <section class="jumbotron">
 
-            <h1>CarroZone</h1>
-            <h2>Lo más nuevo sobre vehículos</h2>
-            <button>Unete a nosotros</button>
+            <h1>CarZone</h1>
+            <h2 class="subtitulo">Lo más nuevo sobre vehículos</h2>
+            <div class="jumbotron_button">
+
+                <button class="button_unete">Únete a nosotros</button>
+
+            </div>
 
         </section>
 
-        <div>
-            <h2>¿Por qué devería comprar un vehículo?</h2>
-            <p>Comprar un vehículo es una decisión importante que puede traer muchos beneficios a las personas. Un vehículo ofrece comodidad, seguridad, ahorro y libertad de movimiento. Veamos cada uno de estos aspectos con más detalle.La comodidad es uno de los principales motivos para comprar un vehículo. Con un vehículo propio, las personas pueden evitar el transporte público, que a veces es incómodo, lento o ineficiente.</p>
-            <img src="/Assets/coche-rojo-sedan-prueba-manejo-carretera 1.png" alt="Carro Rojo">
-            <img src="/Assets/Illustracion BMW 1.png" alt="Carro Blanco">
-            <img src="/Assets/persona-viajando-carretera 1.png" alt="Persona manejando carro">
+        <div class="Box1">
+
+            <div class="Box1_texto">
+
+                <h2>¿Por qué devería comprar un vehículo?</h2>
+                <p>Comprar un vehículo es una decisión importante que puede traer muchos beneficios a las personas. Un vehículo ofrece comodidad, seguridad, ahorro y libertad de movimiento. Veamos cada uno de estos aspectos con más detalle.La comodidad es uno de los principales motivos para comprar un vehículo. Con un vehículo propio, las personas pueden evitar el transporte público, que a veces es incómodo, lento o ineficiente.</p>
+
+                
+            </div>
+            
+            <div class="Box1_imagenes">
+                <img src="/Assets/coche-rojo-sedan-prueba-manejo-carretera 1.png" class="auto_rojo" alt="Carro Rojo">
+
+            </div>
+            
+            
+        </div>
+        
+        <div class="Box2">
+            
+            <img src="/Assets/Illustracion BMW 1.png" class="auto_blanco" alt="Carro Blanco">
+            <img src="/Assets/persona-viajando-carretera 1.png" class="auto_paseo" alt="Persona manejando carro">
 
         </div>
+        <div class="Box3">
 
-        <div>
-            <h2>¿Qué vehículo debo elegir?</h2>
-            <p>Los mejores vehículos del mercado son aquellos que combinan calidad, seguridad, eficiencia y comodidad.
+            <div class="Box3_imagen">
 
-                Algunos de los factores que hay que tener en cuenta a la hora de elegir un vehículo son: el consumo de combustible, el espacio interior, el equipamiento tecnológico, el diseño y el precio. 
+                <img src="/Assets/coche-negro-lujo-calle-hermoso-cielo 1.png" class="auto_negro" alt="Carro negro">
                 
-                Según estos criterios, algunos de los modelos más destacados son: el Toyota Corolla, el Honda Civic, el Hyundai Tucson, el Ford F-150 y el Tesla Model 3. 
+
+            </div>
+            <div class="Box3_texto"> 
                 
-                Estos vehículos ofrecen un buen rendimiento, una buena relación calidad-precio y una buena reputación entre los usuarios. 
-                
-                Además, cuentan con sistemas de seguridad avanzados, como frenos ABS, control de estabilidad y airbags. Estos son algunos de los mejores vehículos del mercado que puedes considerar si estás pensando en comprar un nuevo coche.</p>
-            <img src="/Assets/coche-negro-lujo-calle-hermoso-cielo 1.png" alt="Carro negro">
+                <h2>¿Qué vehículo debo elegir?</h2>
+                <p>Los mejores vehículos del mercado son aquellos que combinan calidad, seguridad, eficiencia y comodidad.
+    
+                    Algunos de los factores que hay que tener en cuenta a la hora de elegir un vehículo son: el consumo de combustible, el espacio interior, el equipamiento tecnológico, el diseño y el precio. 
+                    
+                    Según estos criterios, algunos de los modelos más destacados son: el Toyota Corolla, el Honda Civic, el Hyundai Tucson, el Ford F-150 y el Tesla Model 3. 
+                    
+                    Estos vehículos ofrecen un buen rendimiento, una buena relación calidad-precio y una buena reputación entre los usuarios. 
+                    
+                    Además, cuentan con sistemas de seguridad avanzados, como frenos ABS, control de estabilidad y airbags. Estos son algunos de los mejores vehículos del mercado que puedes considerar si estás pensando en comprar un nuevo coche.</p>
+            </div>
+        </div>
+        
+        <div class="Box4">
+            
             <img src="/Assets/coche-azul-movimiento-velocidad-estilo-estiramiento 1.png" alt="Carro Azul">
             <img src="/Assets/color-metalico-plateado-sedan-deportivo-carretera 1.png" alt="Carro Plateado">
             <img src="/Assets/tesla 1.png" alt="Tesla rojo">
@@ -74,16 +112,20 @@
 
         </div>
 
-        <section>
+        <section class="input">
             <form action="/" method="get">
                 <input type="email" name="Email_user" id="">
                 <input type="submit" value="Enviar">
+                <label for="" class="etiqueta">Ingresa tu @email
+
+                </label>
             </form>
 
             
         </section>
 
-        <div>
+        <div class="input_text">
+
             <h2>Únete y recibe actualización en todo momento</h2>
             <p>Únete y recibe actualización en todo momento Únete y recibe actualización en todo momentoÚnete y recibe actualización en todo momento</p>
         
@@ -93,16 +135,34 @@
     </main>
 
     <footer>
-        <img src="/Assets/Rectangle 3.png" alt="BG footer">
-        <img src="/Assets/carzonelogofull-removebg-preview.png" alt="Logo de la web">
-        <h2>Únete y recibe actualización en todo momento</h2>
-        <p>Únete y recibe actualización en todo momento Únete y recibe actualización en todo momentoÚnete y recibe actualización en todo momento</p>
+
+        <div class="footer_container">
+
+            <div class="footer_logo2">
+    
+                <img src="/Assets/carzonelogofull-removebg-preview.png" class="logo2" alt="Logo de la web">
+                
+                <div class="footer_texto">
         
-        <div>
-            <img src="/Assets/logo facebook 1.png" alt="Logo Facebook">
-            <img src="/Assets/logo twitter 1.png" alt="Logo twitter">
-            <img src="/Assets/logo instagram 1.png" alt="Logo instagram">
+                    <h2>Únete y recibe actualización en todo momento</h2>
+                    <p>Únete y recibe actualización en todo momento Únete y recibe actualización en todo momentoÚnete y recibe actualización en todo momento</p>
+                    
+        
+                </div>
+            </div>
+        
+            
+            <div class="footer_redes">
+                
+                <img src="/Assets/logo facebook 1.png" alt="Logo Facebook">
+                <img src="/Assets/logo twitter 1.png" alt="Logo twitter">
+                <img src="/Assets/logo instagram 1.png" alt="Logo instagram">
+            </div>
+
+
+
         </div>
+       
 
 
     </footer>
