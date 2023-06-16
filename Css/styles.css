@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 1em;
+    font-size: 0.9rem;
     box-sizing: border-box;
 
 }
@@ -42,6 +42,18 @@ header {
         
 }
 
+li {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase ;
+}
+
+.header_nav_ul a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase ;
+}
+
 .header_nav_button button {
     border-radius: 30px;
     width: 200px;
@@ -49,65 +61,20 @@ header {
     margin: 60px;
     border: solid 1px #000000;
     transition: 1s;
+    cursor: pointer;
     
 }
 
-button:hover {
+button {
+    cursor: pointer;
+}
+
+button:hover , .input_submit:hover {
     background-color: #EF233C;
     
 }
 
-
-/* Lo comentado es la primera practica */
-
-/* 
-NAV {
-    background-color: #EDF2F4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    width: 100%;
-    height: 10%;
-    padding: 20px 60px;
-    font-size: 1em;
-    position: fixed;
-    
-    
-} */
-
-
-
-/* .logo1 {
-    width: 200px;
-    height: 150px;
-    
-   
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    align-items: flex-end;
-    font-size: 1.3em;
-
-
-}
-
-.button_contacto {
-    display: flex;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    padding: 16px 55px;
-    font-size: 1em;
-    border-radius: 10px;
-    border: solid 1px #000000;
-
-} */
-
 .jumbotron {
-
     padding: 10vh;
     display: flex;
     flex-direction: column;
@@ -135,8 +102,10 @@ h2 {
 .jumbotron_button {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding: 40px;
-    height: 50px;
+    height: 40px;
+   
 }
 
 
@@ -146,7 +115,7 @@ h2 {
     text-align: center;
     width: 200px;
     height: 50px;
-    padding: 16px 36px;
+    padding: 16px 36px 0px 50px;
     font-size: 1em;
     border-radius: 30px;
     border: solid 1px #000000;
@@ -172,6 +141,7 @@ h2 {
 }
 
 p {
+    display: flex;
     width: 400px;    
 }
 
@@ -235,8 +205,27 @@ p {
 
 .etiqueta {
     position: absolute;
-    left: 0;
+    left: 10px;
+    top: 10px;
+    transition: 0.3s;
 
+}
+
+.input_input {
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+}
+
+.input_submit {
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: solid 1px #000000;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .etiqueta:hover {
@@ -248,7 +237,7 @@ como quitar el texto al pasar el mouse por la etiqueta? */
 footer {
     
     background-color: #8D99AE;
-    width: 100%;
+    width: 100vw;
     height: 303px
     display: grid;
     grid-template: 1fr 1fr 1fr;
@@ -269,8 +258,8 @@ footer {
 }
 
 .logo2 {
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
 
 }
 
@@ -283,5 +272,20 @@ footer {
 }
 
 .footer_redes {
+    
     margin: 60px 60px 60px 60px;
+
+}
+
+.footer_redes_facebook {
+   
+    width: 45px;
+}
+
+.footer_redes_twitter {
+    width: 50px;
+}
+
+.footer_redes_instagram {
+    width: 50px;
 }
